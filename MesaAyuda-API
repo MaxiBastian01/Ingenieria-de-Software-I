@@ -1,0 +1,40 @@
+{
+  "clientes": [
+    {
+      "id": "c-001",
+      "nombre": "Juan Pérez",
+      "email": "juan@mail.com"
+    },
+    {
+      "id": "c-002",
+      "nombre": "Ana López",
+      "email": "ana@mail.com"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t-101",
+      "clienteId": "c-001",
+      "descripcion": "No tengo acceso a internet",
+      "estado": "abierto"
+    },
+    {
+      "id": "t-102",
+      "clienteId": "c-002",
+      "descripcion": "El sistema se congela al iniciar",
+      "estado": "en_progreso"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "u-001",
+      "usuario": "admin",
+      "password": "1234"
+    },
+    {
+      "id": "u-002",
+      "usuario": "soporte",
+      "password": "abcd"
+    }
+  ]
+}
